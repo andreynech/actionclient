@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "i2c": "^0.2.1",
     "ws": "^0.7.2"
   }
 }
