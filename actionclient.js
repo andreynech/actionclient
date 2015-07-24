@@ -1,5 +1,6 @@
 var WebSocket = require('ws')
-  , ws = new WebSocket('ws://localhost:8080');
+var ws = new WebSocket('wss://actionserver.herokuapp.com');
+//var ws = new WebSocket('ws://localhost:5000');
 
 
 ws.on('open', function() 
